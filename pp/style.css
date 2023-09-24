@@ -1,0 +1,775 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #091B2A;
+    cursor: url() auto;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+     
+
+}
+header{
+    display: flex;
+    height: 10%;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header >h1{
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    margin-left: 50px;
+    color: white;
+    
+header >h1 .textp{
+    color: #00A0E4;
+
+}  
+}
+header ul{
+    display: flex;
+    margin-right: 7%;
+
+}
+header ul li{
+    list-style: none;
+    
+    
+}
+header ul li a{
+    text-decoration: none;
+    margin-left: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 21px;
+    color:white;
+    letter-spacing: 1px;
+    font-weight: 530;
+    transition: ease-in-out 400ms;
+
+}
+header ul li a:hover,header ul li a.active{
+    cursor: pointer;
+    color:#00A0E4;
+    transform: translateY(-8px);
+    cursor: pointer;
+}
+
+.container{
+    height: 90%;
+    display: flex;
+    overflow: hidden;
+}
+.container .left{
+    position: relative;
+    height: 100%;
+    width: 55%;
+    
+}
+.container .left >h1{
+    font-size: 46px;
+    position: relative;
+    top: 150px;
+    margin: 0 5% 2% 5%;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+.container .left >h2{
+    font-size: 27.6px;
+    top: 150px;
+    margin: 0 5% 2% 5%;
+    font-family: 'Ubuntu', sans-serif;
+    color:#00A0E4;
+
+}
+
+.container .left >p{
+    position: relative;
+    top: 150px;
+    margin: 0 25% 2% 5%;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container .left button{
+    position: relative;
+    top: 150px;
+    margin: 5% 0% 5% 5%;
+    color:#00A0E4;
+    background-color: transparent;
+    font-family: 'Ubuntu', sans-serif;
+    width: 12%;
+    height: 7%;
+    border: 2px solid #00A0E4 ;
+    border-radius: 11px;
+    transition: all ease-in-out 400ms;
+}
+
+.container .left >h2{
+    position: relative;
+    overflow: hidden;
+    border-right: 2px solid #00A0E4;
+    animation: type 2.5s steps(20) infinite;
+    white-space: nowrap;
+
+}
+.container .left .logo{
+   position: relative;
+   color: white;
+   font-size: 60px;
+   
+
+}
+
+@keyframes type {
+    from{
+        width:0;
+
+    }
+    to{
+        width:34%;
+    }
+    
+}
+
+.container .left button:hover{
+
+    background-color: #00A0E4;
+    color: white;
+    cursor: pointer;
+}
+.container .right{
+    position: relative;
+    
+    
+}
+
+
+.container .right .decoration{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    border: 8px solid #00A0E4;
+    margin-right: 5%;
+    margin-left: 25%;
+    margin-top: 48%;
+    transform: rotateZ(45deg);
+    z-index:100;
+    
+}
+
+.container .right .decoration1{
+    background-color:#00A0E4;
+    position: absolute;
+    top: -23px;
+    left: 160%;
+    margin-right: 0%;
+    width: 350px;
+    height: 450px;
+    transform: rotateZ(45deg);
+    
+    
+}
+
+.skills{
+    width: 100%;
+    height:100%;
+    position: relative;
+    
+
+
+}
+.skills .myskill{
+    display: flex;
+    height: 15%;
+    position:relative;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+    padding-left: 5%;
+    color: white;
+    margin-top: 15%;
+
+}
+.skills .myskill #skill{
+    color: #00A0E4;
+}
+.skills .cards .decoration2{
+    position: absolute;
+    bottom: -10%;
+    left: -5%;
+    width: 900px;
+    height: 110px;
+    border: 6px solid #00A0E4;
+    z-index: 88;
+}
+
+.skills .cards #d2{
+    position: absolute;
+    bottom: -7%;
+    left: -4%;
+    width: 900px;
+    height: 110px;
+    border: 6px solid #00A0E4;
+   
+}
+
+.skills .cards{
+    position: relative;
+    width: 100%;
+    height: 85%;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+
+.container1{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 250px;
+    border-radius: 40px;
+    transition: all ease-in-out 200ms;
+    margin: 5%;
+    cursor: pointer;
+   
+}
+
+
+.container1 .image{
+    display: grid;
+    place-items: center;
+    position: relative;
+    height: 350px;
+    width: 250px;
+    -webkit-backdrop-filter: blur(0);
+    backdrop-filter: blur(0);
+    background-color: rgba(255, 255,255, 0.5);
+    border-radius: 50px;
+    transition: all ease-in-out 200ms;
+    z-index: 100;
+
+}
+
+.container1 .image img{
+   
+    width: 160px;
+    height: 160px;
+    object-fit:fill;
+    border-radius: 100px;
+    
+}
+.container1 .image #js{
+    height: 180px;
+    width: fit-content;
+    border-radius: 0;
+}
+
+.container1 .image:hover{
+    opacity: 0;
+    scale:1.1;
+
+}
+.container1 .text{
+    opacity: 0;
+    z-index:100;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    height: 350px;
+    width: 250px;
+    -webkit-backdrop-filter: blur(0);
+    backdrop-filter: blur(0);
+    background-color: rgba(255, 255,255, 0.5);
+    border-radius: 40px;
+    transition: all ease-in-out 200ms;
+    padding: 15px 25px;
+    padding: 20px;
+}
+
+.container1:hover{
+    opacity: 1;
+    scale: 1.02;
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(3, 183, 243, 0.5);
+    
+
+} 
+
+.container1 .text >h1{
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    position: relative;
+    justify-content: center;
+    align-items:center;
+    margin-top: 25px;
+    margin-bottom: 0;
+    height: 25px;
+}
+
+.container1 .text >p{
+    display: flex;
+    position: relative;
+    justify-content:start;
+    font-size: 20px;
+    line-height: 19px;
+    padding: 10px;
+    top: -30px;
+}
+.container1 .text:hover{
+    scale: 1.01;
+    opacity: 1;
+    background-color:transparent;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    box-shadow: 10 10 10px #00A0E4;
+    
+}
+
+
+.three{
+    width: 100%;
+    height:100%;
+    margin: 0%;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.three >h1{
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    margin: 5% 0;
+    top: 0%;
+}
+.three #me{
+    color: #00A0E4;
+}
+
+.three .information{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+position: relative;
+width: 800px;
+height: 600px;
+align-items: center;
+padding: 15px;
+border: 3px solid #00A0E4;
+border-radius: 25px;
+
+}
+.three .information #text1{
+    border: 2px solid #00A0E4;
+    width: 250px;
+    height: 6%;
+    border-radius: 10px;
+    background: transparent;
+    margin-right: 5px;
+
+}
+.three .information #email{
+    border: 2px solid #00A0E4;
+    width: 260px;
+    height: 6%;
+    border-radius: 10px;
+    background: transparent;
+
+}
+.three .information #number{
+    border: 2px solid #00A0E4;
+    width: 180px;
+    height: 6%;
+    border-radius: 10px;
+    background: transparent;
+
+}
+.three .information #Subject{
+    border: 2px solid #00A0E4;
+    width: 250px;
+    height: 6%;
+    border-radius: 10px;
+    background: transparent;
+
+}
+.three .information label{
+     color: #00A0E4;
+     font-family: 'Ubuntu', sans-serif;
+     font-weight: 500;
+     font-size: 22px;
+     margin: 10% 2%;
+   
+
+}
+.three .information #discription{
+    border: 2px solid #00A0E4;
+    border-radius: 10px;
+    background: transparent;
+
+   
+
+}
+
+.three .information button{
+    display:flex;
+    position: relative;
+    margin: 5% 5% 5% 5%;
+    color:white;
+    background-color: transparent;
+    font-family: 'Ubuntu', sans-serif;
+    width: 15%;
+    height: 10%;
+    border: 2px solid #00A0E4 ;
+    border-radius: 11px;
+    transition: all ease-in-out 400ms;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.three .information button:hover{
+background-color: #00A0E4;
+color: white;
+cursor: pointer;
+
+}
+
+
+
+@media only screen and (width<1501px){
+    .container .right .decoration1 {
+        background-color: #00A0E4;
+        position: absolute;
+        top: -38px;
+        left: 150%;
+        margin-right: 0%;
+        width: 350px;
+        height: 450px;
+        transform: rotateZ(45deg);
+    }
+
+    
+}
+@media only screen and (1076<width<1175px){
+    .container .right .decoration1 {
+        background-color: #00A0E4;
+        position: absolute;
+        top: -90px;
+        left: 150%;
+        margin-right: 0%;
+        width: 350px;
+        height: 450px;
+        transform: rotateZ(45deg);
+    }
+
+    
+}
+@media only screen and (width<1044px){
+    .container .right .decoration {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        border: 8px solid #00A0E4;
+        margin-right: 10%;
+        margin-left: 25%;
+        margin-top: 48%;
+        transform: rotateZ(45deg);
+        z-index: 100;
+    }
+    .container .right .decoration1 {
+        background-color: #00A0E4;
+        position: absolute;
+        top: -110px;
+        left: 150%;
+        margin-right: 0%;
+        width: 350px;
+        height: 450px;
+        transform: rotateZ(45deg);
+    }
+}
+    
+    @media only screen and (width < 926px){
+    .container .right .decoration1 {
+        background-color: #00A0E4;
+        position: absolute;
+        top: -103px;
+        left: 120%;
+        margin-right: 0%;
+        width: 350px;
+        height: 450px;
+        transform: rotateZ(45deg);
+    }
+    
+}
+@media only screen and (width < 926px){
+    .container .right .decoration {
+      position: relative;
+      width: 250px;
+      height: 250px;
+      border: 8px solid #00A0E4;
+      margin-right: 10%;
+      margin-left: 25%;
+      margin-top: 48%;
+      transform: rotateZ(45deg);
+       z-index: 100;
+  }}
+@media only screen and (width < 926px){
+  .container .right .decoration {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border: 8px solid #00A0E4;
+    margin-right: 10%;
+    margin-left: 25%;
+    margin-top: 48%;
+    transform: rotateZ(45deg);
+     z-index: 100;
+}
+
+.container .left button {
+    position: relative;
+    top: 150px;
+    margin: 5% 0% 5% 5%;
+    color: #00A0E4;
+    background-color: transparent;
+    font-family: 'Ubuntu', sans-serif;
+    width: 26%;
+    height: 7%;
+    border: 2px solid #00A0E4;
+    border-radius: 11px;
+    transition: all ease-in-out 400ms;
+    padding: 9px;
+}
+}
+@media only screen and (width<1166px){
+    .container .right .decoration {
+        position: relative;
+        width: 350px;
+        height: 350px;
+        border: 8px solid #00A0E4;
+        margin-right: 5%;
+        margin-left: 25%;
+        margin-top: 48%;
+        transform: rotateZ(45deg);
+        z-index: 100;
+        right: 40px;
+    }
+    .container .right .decoration1 {
+        background-color: #00A0E4;
+        position: absolute;
+        top: -103px;
+        left: 140%;
+        margin-right: 0%;
+        width: 350px;
+        height: 450px;
+        transform: rotateZ(45deg);
+    }
+}
+@media only screen and (width < 902px){
+    .container .left button {
+        position: relative;
+        top: 150px;
+        margin: 5% 0% 5% 5%;
+        color: #00A0E4;
+        background-color: transparent;
+        font-family: 'Ubuntu', sans-serif;
+        width: 25%;
+        height: 7%;
+        border: 2px solid #00A0E4;
+        border-radius: 11px;
+        transition: all ease-in-out 400ms;
+        padding: 15px;
+    }
+}
+@media only screen and (width <829px){
+    .container .right .decoration {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        border: 8px solid #00A0E4;
+        /* margin-right: 255px; */
+        /* margin-left: 25%; */
+        /* margin-top: 48%; */
+        transform: rotateZ(45deg);
+        right: 50px;
+        z-index: 100;
+    }
+    .container .right .decoration1 {
+        background-color: #00A0E4;
+        position: absolute;
+        top: -152px;
+        left: 375px;
+        margin-right: 0%;
+        width: 350px;
+        height: 450px;
+        transform: rotateZ(45deg);
+    }
+}
+@media only screen and (width < 790px){
+    .three .information {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        position: relative;
+        width: 552px;
+        height: 816px;
+        align-items: center;
+        padding: 30px;
+        border: 3px solid #00A0E4;
+        border-radius: 25px;
+    }
+    .three .information label {
+        color: #00A0E4;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        margin: 3% 2%;
+    }
+    .three .information button {
+        display: flex;
+        position: relative;
+        margin: 5% 5% 5% 5%;
+        color: white;
+        background-color: transparent;
+        font-family: 'Ubuntu', sans-serif;
+        width: 100px;
+        height: 50px;
+        border: 2px solid #00A0E4;
+        border-radius: 11px;
+        transition: all ease-in-out 400ms;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
+
+@media only screen and (width < 634px){
+    .container .left button {
+        position: relative;
+        top: 150px;
+        margin: 5% 0% 5% 5%;
+        color: #00A0E4;
+        background-color: transparent;
+        font-family: 'Ubuntu', sans-serif;
+        width: 20%;
+        height: 7%;
+        border: 2px solid #00A0E4;
+        border-radius: 11px;
+        transition: all ease-in-out 400ms;
+        padding: 15px;
+    }
+}
+@media only screen and (width < 694px){
+    .container .left button {
+        position: relative;
+        top: 150px;
+        margin: 5% 0% 5% 5%;
+        color: #00A0E4;
+        background-color: transparent;
+        font-family: 'Ubuntu', sans-serif;
+        width: 23%;
+        height: 7%;
+        border: 2px solid #00A0E4;
+        border-radius: 11px;
+        transition: all ease-in-out 400ms;
+        padding: 5px;
+    }
+}
+@media only screen and (width < 577px){
+    .container .left button {
+        position: relative;
+        top: 150px;
+        margin: 5% 0% 5% 5%;
+        color: #00A0E4;
+        background-color: transparent;
+        font-family: 'Ubuntu', sans-serif;
+        width: 25%;
+        height: 5%;
+        border: 2px solid #00A0E4;
+        border-radius: 11px;
+        transition: all ease-in-out 400ms;
+        padding: 5px;
+    }
+}
+@media only screen and (width < 529px){
+    .container .left button {
+        position: relative;
+        top: 150px;
+        margin: 5% 0% 5% 5%;
+        color: #00A0E4;
+        background-color: transparent;
+        font-family: 'Ubuntu', sans-serif;
+        width: 28%;
+        height: 5%;
+        border: 2px solid #00A0E4;
+        border-radius: 11px;
+        transition: all ease-in-out 400ms;
+        padding: 5px;
+    }
+}
+@media only screen and (width < 610px){
+    .skills{
+        width: 100%;
+        /* height:100%; */
+        margin: 0%;
+        position: relative;
+        overflow: hidden;
+    
+    
+    }
+}
+@media only screen and (810px<width < 930px){
+    .three .information {
+    scale: 0.8;
+    }
+}
+@media only screen and (795px<width < 810px){
+    .three .information {
+    scale: 0.7;
+    }
+}
+@media only screen and (500px<width < 680px){
+    .three .information {
+    scale: 0.7;
+    }
+}
+@media only screen and (300px<width < 510px){
+    .three .information {
+    scale: 0.7;
+    }
+}
+
+
+
+
+
